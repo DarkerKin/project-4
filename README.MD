@@ -90,9 +90,9 @@ The dataset is commonly used for customer segmentation, market basket analysis, 
 
 ## Data Understanding
 
-<img src="heatmap.png" alt="heatmap for recency, frequency and monetary">
-
 A positive correlation between Frequency and Monetary indicates that customers who purchase more often tend to spend more overall. A negative correlation between Recency and Frequency means that customers who purchased more recently tend to buy more frequently.
+
+<img src="heatmap.png" alt="heatmap for recency, frequency and monetary">
 
 ## Data Pre-Processing
 
@@ -136,11 +136,13 @@ K-Means is chosen for this project because:
 
 ## Storytelling
 
-<img src="cluster-summary.png">
-
 The cluster summary reveals clear distinctions between different types of customers based on their purchasing behavior. Cluster 2 represents high-value customers who purchase very frequently, spend the most, and have shopped recently.Cluster 0 includes regular customers who buy fairly often and spend a moderate amount, showing consistent engagement. Cluster 1 consists of inactive or low-value customers who have not purchased recently, buy infrequently, and spend less overall. Finally, Cluster 3 identifies lost customers who have not made purchases for a long time and contribute the least to revenue. These clusters provide valuable insights for targeted marketing strategies, such as rewarding loyal customers and re-engaging inactive ones.
 
+<img src="cluster-summary.png">
+
 ## Impact
+
+This project has several potential social and ethical impacts. On the positive side, clustering customer data can help businesses improve marketing efficiency, provide more personalized experiences, and strengthen customer relationships. However, there are also risks that must be considered. Using customer data for segmentation may raise privacy concerns if personal information is not properly anonymized or protected. It could also lead to unintended bias or unfair treatment, such as excluding certain groups from promotions or benefits. Additionally, over-targeting based on purchase behavior might feel invasive or manipulative to customers. To minimize these risks, businesses should ensure data transparency, informed consent, and compliance with privacy laws such as GDPR or CCPA. They should also use clustering ethically—focusing on customer value and satisfaction rather than exploiting behavioral patterns for excessive profit.
 
 ## Reference
 
