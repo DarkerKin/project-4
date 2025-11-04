@@ -92,6 +92,8 @@ The dataset is commonly used for customer segmentation, market basket analysis, 
 
 <img src="heatmap.png" alt="heatmap for recency, frequency and monetary">
 
+A positive correlation between Frequency and Monetary indicates that customers who purchase more often tend to spend more overall. A negative correlation between Recency and Frequency means that customers who purchased more recently tend to buy more frequently.
+
 ## Data Pre-Processing
 
 ### Handling Missing Value
@@ -133,6 +135,10 @@ K-Means is chosen for this project because:
 <img src="clustering.png" alt="image of cluster plot">
 
 ## Storytelling
+
+<img src="cluster-summary.png">
+
+The cluster summary reveals clear distinctions between different types of customers based on their purchasing behavior. Cluster 2 represents high-value customers who purchase very frequently, spend the most, and have shopped recently.Cluster 0 includes regular customers who buy fairly often and spend a moderate amount, showing consistent engagement. Cluster 1 consists of inactive or low-value customers who have not purchased recently, buy infrequently, and spend less overall. Finally, Cluster 3 identifies lost customers who have not made purchases for a long time and contribute the least to revenue. These clusters provide valuable insights for targeted marketing strategies, such as rewarding loyal customers and re-engaging inactive ones.
 
 ## Impact
 
